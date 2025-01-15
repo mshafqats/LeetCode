@@ -7,6 +7,5 @@ Mohammad Shafqat Siddiqui
 '''
 
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        str_x = str(x)
-        return str_x == str_x[::-1]
+    def strStr(self, haystack: str, needle: str) -> int:
+        return haystack.find(needle)

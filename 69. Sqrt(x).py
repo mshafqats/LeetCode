@@ -7,6 +7,8 @@ Mohammad Shafqat Siddiqui
 '''
 
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        str_x = str(x)
-        return str_x == str_x[::-1]
+    def mySqrt(self, x: int) -> int:
+        i = 1
+        while i <= x/i:
+            i += 1
+        return i-1

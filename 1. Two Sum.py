@@ -1,3 +1,11 @@
+'''
+=====================
+|  ID: MShafqatS    |
+|  LANG: Python     |
+=====================
+Mohammad Shafqat Siddiqui
+'''
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         n1 = len(nums)
